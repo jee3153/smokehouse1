@@ -1,0 +1,95 @@
+@media only screen 
+  and (min-device-width: 768px) 
+   {
+
+    .menu-btn {
+        opacity: 0;
+    }
+
+    .close-btn {
+        opacity: 0;
+    }
+
+    nav {
+        opacity: 1;
+        background-color: rgb(207, 204, 204);
+        width: 100vw;
+        height: 4vh;
+        min-height: 2.2rem;
+        transform: translateY(0);
+        padding: .5rem;
+    }
+
+    
+
+    ul {
+        opacity: 1;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 4rem;
+        line-height: 1.2rem;
+    }
+
+    li:first-child {
+        padding-top: 0;
+    }
+
+    li:last-child {
+        margin-right: 0;
+    }
+
+    .nav-links a:link,
+    .nav-links a:visited {
+        color: #3a463a;
+    }
+
+  
+
+    .nav-links a:hover {
+        color: #708870;
+    }
+
+  
+    .header-logo {
+        width: 30vw;
+        padding-top: .8rem;
+    }
+
+    
+    
+    .panel:first-child {
+        margin-top: 2.2rem;
+    }
+
+    .main-about-us {
+        margin-top: 2rem;
+        height: 86vh;
+        background-size: 100% 100%;
+    }
+
+    .main-about-us section {
+        margin-top: 5rem;
+    }
+    .about-us ,
+    .quality-provenance  {
+        padding: 3rem 0;
+    }
+
+    .right,
+    .left {
+        width: 47%;
+    }
+    
+    .left {
+        float: left;
+    }
+    .right {
+        float: right;
+    }
+    
+
+    
+}
+
